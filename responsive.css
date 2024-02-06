@@ -1,0 +1,67 @@
+@media screen and (max-width: 576px) {
+    .hero{
+        height: 100%;
+    }
+    .hero_details{
+        flex-direction: column;
+        height: 100%;
+    }
+    .introduction{
+        width: 100%;
+        height: auto;
+    }
+    .intro_details{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .intro_details h2{
+        width: 100%;
+        height: auto;
+    }
+    .intro_items{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .blog{
+        width: 100%;
+        height: auto;
+    }
+    .blog_items{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .blog_1{
+        height: auto;
+    }
+    .free_guide{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .CTA{
+        width: 100%;
+        height: auto;
+    }
+    .cta_container{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer_notification{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .footer-items{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+}
