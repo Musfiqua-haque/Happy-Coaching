@@ -107,19 +107,36 @@ li{
         justify-content: space-between;
         align-items: center;
         gap: 50px;
+        height: auto;
+        background-color: var(--gray);
     }
     .hero_desc{
         width: 50%;
-        background-color: red;
+    }
+    .hero_desc_details{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .hero_title{
+        opacity: 40%;
+        font-size: 16px;
+        padding-top: 50px;
+    }
+    .hero_desc h1{
+        font-size: 72px;
+    }
+    .hero_desc p{
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 20px;
     }
     .hero_image{
         width: 50%;
-        background-color: blue;
-        
     }
+    
 
 
-    /* hero start */
+    /* hero end */
 
 
     /* blog start */
