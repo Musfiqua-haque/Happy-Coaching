@@ -114,8 +114,11 @@ li{
         width: 50%;
     }
     .hero_desc_details{
-        padding-left: 4rem;
-        padding-right: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding-left: 5rem;
     }
     .hero_title{
         opacity: 40%;
@@ -128,10 +131,23 @@ li{
     .hero_desc p{
         font-size: 18px;
         line-height: 28px;
-        padding-bottom: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 3rem;
     }
     .hero_image{
         width: 50%;
+        position: relative;
+    }
+    .hero_icon{
+        position: absolute;
+        background-color: var(--white);
+        top: 0;
+        left: -5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 1rem;
     }
     
 
