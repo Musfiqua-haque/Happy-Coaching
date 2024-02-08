@@ -336,56 +336,45 @@ li{
     /* cta start */    
 
     .cta_details{
-        width: 80%;
         display: flex;
-        background-color: var(--gray);
+        width: 100%;
         border-radius: 24px;
-        gap: 40px;
-        justify-content: space-between;
-        background-color: red;
+        background-color: var(--gray);
+        margin-bottom: 30px;
     }
     .cta_heading{
+        padding-left: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
         gap: 20px;
     }
-    
     .cta_heading h2{
-        font-size: 36PX;
-        line-height: 44px;
+        font-size: 36px;
     }
     .cta_heading p{
-        size: 20px;
-        color: var(--light_gray);
-        line-height: 30px;
-    }
-    .cta_btn{
-        display: block;
+        font-size: 20px ;
     }
     .cta_image{
         position: relative;
-        
+        width: 60%;
+        align-items: flex-end;
     }
-    
-    .cta_icon{
-        width: 84px;
-        height: 32px;
-        position: absolute;
-        background-color: red;
-        top: 40px;
-        left: 44px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 6px;
-    }
-    
     .cta_image img{
+        width: 100%;
+        height: 100%;
         border-bottom-right-radius: 24px;
     }
-
+    .cta_icon{
+        position: absolute;
+        background-color: var(--white);
+        border-radius: 10px;
+        top: 30px;
+        left: 30px;
+    }
+    .cta_icon img{
+        padding: .5rem 1rem .3rem 1rem;
+    }
     
     /* footer  */
 .footer_subscription_row{
