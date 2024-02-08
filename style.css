@@ -194,13 +194,100 @@ li{
         padding-right: .5rem;
     }
 
-    /* hero end */
+    /* intro end */
 
+    /* guide start */
+    .guide_section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+        margin-bottom: 5rem;
+    }
+    .guide_details{
+        width: 60%;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .guide_details h2{
+        line-height: 56px;
+    }
+    .p_1{
+        font-size: 22px;
+        line-height: 33px;
+        padding: 1rem 1rem 0rem 0rem;
+    }
+    .p_2{
+        font-size: 17px;
+        line-height: 21px;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+    .guide_btn{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border-radius: 10px;
+    }
+    .guide_image{
+        width: 40%;
+    }
+    .image_bg{
+        position: relative;
+    }
+    .guide_title{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: 1;
+    }
+    .guide_title h3{
+        padding: 3rem 7rem 1rem 1rem;
+        color: var(--white);
+    }
+
+    .guide{
+        position: absolute;
+        top: 216px;
+        left: 103px;
+    }
+    .guide_circle{
+        position: absolute;
+        top: -35px;
+        right: -40px;
+    }
+    .circle_heading{
+        position: absolute;
+        top: 35px;
+        left: 8px;
+        color: var(--white);
+    }
+    .guide_footer{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        gap: 20px;
+    }
+    .guide_footer img{
+        background-color: var(--white);
+        color: var(--dark_gray);
+    }
+    .guide_footer h4{
+        font-size: 20px;
+        color: var(--white);
+    }
+    .guide_footer p{
+        color: var(--white);
+
+    }
+
+    
+    /* guide end */
 
     /* blog start */
     .blog_section{
         margin-top: 5rem;
-        width: 100%;
         height: 800px;
         text-align: center;
     }
