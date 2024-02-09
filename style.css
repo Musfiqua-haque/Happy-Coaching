@@ -102,28 +102,29 @@ li{
     /* hero start */
 
     .hero_section{
+        background-color: var(--ash);
+        position: relative;
         width: 100%;
+    }
+    
+    .hero_wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-        height: auto;
-        background-color: var(--gray);
+        background-color: var(--ash);
+    }
+    .hero_vector{
+        position: absolute;
+        left: 6rem;
+        top: 2rem;
     }
     .hero_desc{
         width: 50%;
+        margin-top: 8rem;
     }
-    .hero_desc_details{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-        padding-left: 5rem;
-    }
+
     .hero_title{
         opacity: 40%;
         font-size: 16px;
-        padding-top: 50px;
     }
     .hero_desc h1{
         font-size: 72px;
@@ -133,17 +134,23 @@ li{
         line-height: 28px;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-right: 3rem;
     }
     .hero_image{
+        text-align: center;
         width: 50%;
+        margin-top: 4rem;
         position: relative;
+    }
+    
+    .hero_image_layout{
+        position: relative;
+        top: 2rem;
     }
     .hero_icon{
         position: absolute;
         background-color: var(--white);
         top: 0;
-        left: -5rem;
+        left: -4rem;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -332,6 +339,52 @@ li{
     
 
     /* blog end */
+
+    /* review start */
+
+    .review_section{
+        background-color: blue;
+    }
+
+    .review_card{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        margin-top: 3rem;
+        gap: 5px;
+    }
+    .single_card{
+        background-color: var(--white);
+        height: 300px;
+    }
+    .card_desc{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .card_desc h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .review_1{
+        width: 70px;
+        height: auto;
+    }
+    .review_star{
+        width: 70px;
+        height: auto;
+    }
+    .card_desc p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: var(--light_gray);
+    }
+
+
+
+    /* review end */
 
     /* cta start */    
 
