@@ -55,7 +55,7 @@ li{
     width: 1140px;
 }
 
-    /* header start */
+    /* header style start */
 
 
 .header_section{
@@ -97,9 +97,9 @@ li{
     color: var(--green) !important;
 }
 
-    /* header end */
+    /* header style end */
 
-    /* hero start */
+    /* hero style start */
 
     .hero_section{
         background-color: var(--ash);
@@ -157,9 +157,9 @@ li{
         padding: 1rem;
     }
 
-    /* hero end */
+    /* hero style end */
 
-    /* intro start */
+    /* introduction style start */
 
     .intro_section{
         margin-top: 6rem;
@@ -191,6 +191,7 @@ li{
         display: flex;
         padding-top: 3rem;
     }
+   
     .category_1 h3{
         font-size: 24px;
         padding: 1rem;
@@ -201,101 +202,13 @@ li{
         padding-right: .5rem;
     }
 
-    /* intro end */
+    /* introduction style end */
 
-    /* guide start */
-    .guide_section{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 50px;
-        margin-bottom: 5rem;
-    }
-    .guide_details{
-        width: 60%;
-        padding: 2rem 2rem 2rem 0;
-    }
-    .guide_details h2{
-        line-height: 56px;
-    }
-    .p_1{
-        font-size: 22px;
-        line-height: 33px;
-        padding: 1rem 1rem 0rem 0rem;
-    }
-    .p_2{
-        font-size: 17px;
-        line-height: 21px;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-    }
-    .guide_btn{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        border-radius: 10px;
-    }
-    .guide_image{
-        width: 40%;
-    }
-    .image_bg{
-        position: relative;
-    }
-    .guide_title{
-        position: absolute;
-        top: 20px;
-        left: 0;
-        z-index: 1;
-    }
-    .guide_title h3{
-        padding: 3rem 7rem 1rem 1rem;
-        color: var(--white);
-    }
+    /* blog style start */
 
-    .guide{
-        position: absolute;
-        top: 216px;
-        left: 103px;
-    }
-    .guide_circle{
-        position: absolute;
-        top: -35px;
-        right: -40px;
-    }
-    .circle_heading{
-        position: absolute;
-        top: 35px;
-        left: 8px;
-        color: var(--white);
-    }
-    .guide_footer{
-        position: absolute;
-        bottom: 30px;
-        left: 30px;
-        display: flex;
-        flex-direction: row;
-        padding: 2rem;
-        gap: 20px;
-    }
-    .guide_footer img{
-        background-color: var(--white);
-        color: var(--dark_gray);
-    }
-    .guide_footer h4{
-        font-size: 20px;
-        color: var(--white);
-    }
-    .guide_footer p{
-        color: var(--white);
-
-    }
-
-    
-    /* guide end */
-
-    /* blog start */
     .blog_section{
         margin-top: 5rem;
-        height: 800px;
+        height: auto;
         text-align: center;
     }
     .blog_heading{
@@ -338,25 +251,128 @@ li{
     }
     
 
-    /* blog end */
+    /* blog style end */
 
-    /* review start */
+        /* guide style start */
+
+        .guide_section{
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 50px;
+            margin-bottom: 5rem;
+            margin-top: 10rem;
+        }
+        .guide_details{
+            width: 50%;
+            padding-top: 2rem;
+        }
+        .guide_details h2{
+            line-height: 56px;
+        }
+        .p_1{
+            font-size: 22px;
+            line-height: 33px;
+            padding: 1rem 1rem 0rem 0rem;
+        }
+        .p_2{
+            font-size: 17px;
+            line-height: 21px;
+            padding-right: 1rem;
+            padding-bottom: 2rem;
+        }
+        .guide_btn{
+            padding-left: 3rem;
+            padding-right: 3rem;
+            border-radius: 10px;
+        }
+        .guide_image{
+            width: 40%;
+            position: relative;
+            background-image: linear-gradient(#333461, #483D8B, #353565);
+        }
+        .guide_image img{
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 151px;
+            left: 103px;
+        }
+        
+         .guide_title{
+            position: absolute;
+            top: 20px;
+            left: 0;
+            z-index: 1;
+        } 
+        .guide_title h3{
+            padding: 0rem 13rem 1rem 2rem;
+            color: var(--white);
+        }
+    
+        .guide_icon{
+           background-color: var(--green);
+           width: 110px;
+           height: 100px;
+           border-radius: 50%;
+           color: var(--white);
+           position: absolute;
+           top: -30px;
+           right: -50px;
+            
+        }
+        .guide_icon p{
+            color: var(--white);
+            text-align: center;
+            padding-top: 2rem;
+
+        }
+
+        .guide_footer{
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            display: flex;
+            flex-direction: row;
+            padding: 2rem;
+            gap: 20px;
+        }
+        .guide_footer img{
+            background-color: var(--white);
+            color: var(--dark_gray);
+        }
+        .guide_footer h4{
+            font-size: 20px;
+            color: var(--white);
+        }
+        .guide_footer p{
+            color: var(--white);
+    
+        }
+        
+        /* guide style end */
+
+    /* review style start */
 
     .review_section{
         background-color: blue;
+        width: 100%;
+    }
+    .review_heading{
+        background-color: yellow;
     }
 
-    .review_card{
+    .review_cards{
         width: 100%;
         display: flex;
         flex-direction: row;
         background-color: red;
-        margin-top: 3rem;
-        gap: 5px;
+        
     }
     .single_card{
         background-color: var(--white);
-        height: 300px;
+        height: auto;
     }
     .card_desc{
         display: flex;
@@ -382,11 +398,13 @@ li{
         color: var(--light_gray);
     }
 
+    /* review style end */
 
-
-    /* review end */
-
-    /* cta start */    
+    /* cta style start */  
+    
+    .cta_section{
+        margin-top: 5rem;
+    }
 
     .cta_details{
         display: flex;
@@ -408,6 +426,9 @@ li{
     .cta_heading p{
         font-size: 20px ;
     }
+    .cta_btn{
+        width: 200px;
+    }
     .cta_image{
         position: relative;
         width: 60%;
@@ -428,8 +449,11 @@ li{
     .cta_icon img{
         padding: .5rem 1rem .3rem 1rem;
     }
+
+    /* cta style end */
     
-    /* footer  */
+    /* footer style start  */
+
 .footer_subscription_row{
     background-color: var(--gray);
     padding: 64px 0;
@@ -563,3 +587,5 @@ li{
     width: 24px;
     height: 24px;
 }
+
+/* footer style end */
