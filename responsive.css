@@ -1,3 +1,18 @@
+/* responsive mobile menu start */
+@media screen and (max-width: 576px) {
+    .hideNavbar{
+        display: none;
+    }
+    .mobile_menu{
+        display: block;
+    }
+}
+
+/* responsive mobile menu end */
+
+
+/* media query for 320px start */
+
 @media screen and (max-width: 320px) {
 
     /* hero section start */
@@ -19,6 +34,9 @@
         width: 100%;
         padding:2rem ;
         justify-content: center;
+    }
+    .hero_vector img{
+        padding-top: 2rem;
     }
     .hero_desc_details p{
         font-size: 35px;
@@ -158,7 +176,205 @@
     /* cta section end */
 
 
+    /* footer section start */
+
+    .footer_links_area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer_about{
+        width: 50%;
+        text-align: left;
+    }
+
+    .footer_about img{
+        width: 350px;
+    }
+    .footer_about p{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .footer_links{
+        width: 50%;
+        text-align: left;
+        padding-top: 1rem;
+    }
+    .footer_title{
+        font-size: 40px;
+        padding-bottom: 1rem;
+    }
+    .footer_links ul li a{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer_contact{
+        width: 50%;
+        text-align: left;
+        padding-top: 1rem;
+    }
+    .footer_contact ul li a{
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+    .made_by{
+        padding-left: 2rem;
+    }
+    .made_by p{
+        font-size: 30px;
+    }
+    .made_by img{
+        width: 20px;
+    }
+    .social_links{
+        padding-right: 2rem;
+    }
+    .social_links a{
+        width: 50px;
+    }
+
+    /* footer section end */
+
+    
+}
+
+/* media query for 320px end */
+
+/* media query for 576px start */
+
+@media screen and (min-width: 576px) {
+
+    /* hero section start */
+
+    .header_icon img{
+        width: 250px;
+    }
+    
+    .hero_title{
+        padding-top: 2rem;
+        font-size: 25px;
+    }
+    .hero_desc_details p{
+        font-size: 25px;
+        padding-bottom: 2rem;
+    }
+    .btn_primary{
+        font-size: 20px;
+    }
+    .hero_vector img{
+        padding-top: 2rem;
+    }
+    
+    /* hero section end */
+
+    /* introduction section start */
+
+    .intro_details{
+        padding-left: 3rem;
+    }
+    .intro_desc p{
+        padding:0 ;
+        padding-right: 2rem;
+        font-size: 25px;
+        line-height: 2rem;
+    }
+    .category_1 h3{
+        font-size: 25px;
+    }
+    .category_1 p{
+        font-size: 25px;
+        line-height: 2rem;
+    }
 
 
+    /* introduction section start */
+
+    /* blog section start */
+    .blog1_desc p{
+        font-size: 25px;
+        line-height: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* blog section end */
+
+    /* guide section start */
+
+        .p_1{
+            font-size: 25px;
+        }
+        .p_2{
+            font-size: 20px;
+            line-height: 2rem;
+        }
+        .guide_poster{
+            margin-top: 3.5rem;
+        }
+    /* guide section end */
+
+    /* guide section start */
+
+        .cta_heading{
+            padding-left: 1rem;
+        }
+        .cta_heading p{
+            font-size: 25px;
+        }
+
+    /* guide section end */
+
+    /* footer section start */
+
+        .footer_about img{
+            width: 250px;
+        }
+        .footer_about p{
+            font-size: 25px;
+            line-height: 2rem;
+        }
+        .footer_title{
+            font-size: 22px;
+        }
+        .footer_links ul li a{
+            font-size: 22px;
+        }
+        .footer_contact ul li a{
+            font-size: 22px;
+        }
+        .footer_links_area{
+            padding-left: 1rem;
+        }
+        .footer_media{
+            padding: 1rem;
+        }
+        .made_by p{
+            font-size: 1.5rem;
+        }
+        .made_by img{
+            width: 25px;
+        }
+
+    /* footer section end */
+
+    /* media query for 576px end */
 
 }
+
+    /* media query for 1024px start */
+
+    .navbar_items li a{
+        font-size: 20px;
+    }
+
+
+
+    /* media query for 1024px end */
+
+
+
+
+
+
+

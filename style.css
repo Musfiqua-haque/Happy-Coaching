@@ -83,6 +83,52 @@ li{
     text-transform: capitalize;
 }
 
+/* mobile menu start */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80%;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--brand_color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+.sidebar li{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.sidebar a{
+    width: 100%;
+}
+.sidebar li a{
+    font-size: 3rem;
+    color: var(--white);
+}
+.navbar_items li a i{
+    color: var(--dark_gray);
+    font-size: 3rem;
+}
+
+.sidebar li a i{
+    color: var(--white);
+    font-size: 4rem;
+}
+.mobile_menu{
+    display: none;
+}
+
+/* mobile menu end */
+
+
 .btn_primary{
     border-radius: 4px;
     background-color: var(--green);
@@ -247,10 +293,7 @@ li{
     }
     .blog1_desc p{
         line-height:24px;
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-bottom: 20px;
-        padding-right: 15px;
+        padding: 10px 15px 20px 30px;
     }
     .blog_btn{
         padding-left: 3rem;
@@ -259,7 +302,7 @@ li{
 
     /* blog style end */
 
-        /* guide style start */
+    /* guide style start */
 
         .guide_section{
             height: auto;
@@ -287,7 +330,7 @@ li{
             font-size: 17px;
             line-height: 21px;
             padding-right: 1rem;
-            padding-bottom: 2rem;
+            padding-bottom: 1rem;
         }
         .guide_btn{
             padding-left: 3rem;
@@ -357,50 +400,65 @@ li{
         
         /* guide style end */
 
-    /* review style start */
+     /* review style start */
 
-    .review_section{
-        background-color: blue;
+    /* .review_section{
+        background-color: red;
         width: 100%;
     }
+    .review_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
     .review_heading{
-        background-color: yellow;
+        padding-top: 5rem;
+        text-align: center;
+        width: 100%;
     }
 
     .review_cards{
         width: 100%;
         display: flex;
         flex-direction: row;
-        background-color: red;
+        gap: 2.8rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 2rem;
         
     }
     .single_card{
         background-color: var(--white);
         height: auto;
+        margin-bottom: 8rem;
     }
+    
     .card_desc{
         display: flex;
         flex-direction: column;
-        padding-left: 1rem;
+        padding: 4rem 2rem 0 4rem;
+        justify-content: left;
+        align-items: flex-start;
     }
     .card_desc h3{
         font-size: 24px;
         font-weight: 700;
+        padding: 1rem 0rem 1rem 0rem;
     }
-    .review_1{
+    .clint_image{
         width: 70px;
         height: auto;
     }
     .review_star{
-        width: 70px;
+        width: 105px;
         height: auto;
+        padding: 1rem 0 3rem 0rem;
     }
     .card_desc p{
         font-weight: 400;
         font-size: 24px;
         line-height: 32px;
         color: var(--light_gray);
-    }
+    } */
 
     /* review style end */
 
